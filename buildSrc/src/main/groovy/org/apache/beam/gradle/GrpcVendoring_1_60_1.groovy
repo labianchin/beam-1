@@ -77,8 +77,8 @@ class GrpcVendoring_1_60_1 {
       'com.google.auto.value:auto-value-annotations:1.8.2',
       'com.google.errorprone:error_prone_annotations:2.20.0',
       // transient dependencies of grpc-alts->google-auth-library-oauth2-http->google-http-client:
-      'org.apache.httpcomponents:httpclient:4.5.13',
-      'org.apache.httpcomponents:httpcore:4.4.15',
+      'org.apache.httpcomponents:httpclient:4.5.14',
+      'org.apache.httpcomponents:httpcore:4.4.16',
       // TODO(BEAM-9288): Enable relocation for conscrypt
       "org.conscrypt:conscrypt-openjdk-uber:$conscrypt_version"
     ]
